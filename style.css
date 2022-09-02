@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table {
+  border: 5px solid hsla(24, 92%, 19%, 0.606);
+  text-align: center;
+  box-shadow: 5px 5px 5px hsla(24, 92%, 19%, 0.606);
+  font-family: "Roboto", sans-serif;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 2em;
+}
+
+table caption {
+    text-align: center;
+    caption-side: bottom;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+table thead {
+  background-color: hsla(34, 86%, 48%, 0.708);
+  }
+
+table tbody {
+    background-color: hsla(47, 57%, 89%, 0.444);
+}
+
+table th,
+table td {
+  padding: 1em;
+}
+
+table td {
+  border-bottom: hsl(0, 5%, 63%);
+}
+
+img {
+    width: 100px;
+    height: 100px;
+  }
+
+table td a {
+    text-decoration: none;
+    color: hsla(0, 0%, 0%, 0.904);
+}
+
+table td a:hover {
+    background-color: hsla(342, 52%, 86%, 0.708);
+    color: hsla(0, 0%, 0%, 0.904);
+
+}
+
+
+
+
